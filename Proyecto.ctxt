@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Proyecto
+comment1.params=Name
+comment1.target=Proyecto(java.lang.String)
+comment2.params=
+comment2.target=void\ startcontrols()
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4

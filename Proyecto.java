@@ -14,7 +14,7 @@ public class Proyecto extends JFrame implements ActionListener
 String tm="";
 String txt="";
         float c,b;
-                  double cn;
+                  double con;
                             int op;
                                      JMenuBar cnt;
                                       JMenu see,edition,help;
@@ -59,7 +59,7 @@ String txt="";
                                     
 JTextField jtf1= new JTextField();
 
-royecto (String Name){
+Proyecto (String Name){
     
     super (Name);
 
@@ -185,33 +185,82 @@ public void startcontrols(){
                       
                                    
                 b1.addActionListener(this); 
-                 b1.addActionListener(this); 
-                  b1.addActionListener(this); 
-                   b1.addActionListener(this); 
-                    b1.addActionListener(this); 
-                     b1.addActionListener(this); 
-                      b1.addActionListener(this); 
-                       b1.addActionListener(this); 
-                        b1.addActionListener(this); 
-                         b1.addActionListener(this); 
-                          b1.addActionListener(this); 
-                           b1.addActionListener(this); 
-                            b1.addActionListener(this); 
-                             b1.addActionListener(this); 
-                              b1.addActionListener(this); 
-                               b1.addActionListener(this); 
-                                b1.addActionListener(this); 
-                                                          b1.addActionListener(this); 
-                                                           b1.addActionListener(this); 
-                                                            b1.addActionListener(this); 
-                                                             b1.addActionListener(this); 
-                                                              b1.addActionListener(this); 
-                                                               b1.addActionListener(this); 
-                                                                b1.addActionListener(this); 
-                                                                 b1.addActionListener(this); 
-                                                                  b1.addActionListener(this); 
-                                                              
-                                                
+                 b2.addActionListener(this); 
+                  b3.addActionListener(this); 
+                   b4.addActionListener(this); 
+                    b5.addActionListener(this); 
+                     b6.addActionListener(this); 
+                      b7.addActionListener(this); 
+                       b8.addActionListener(this); 
+                        b9.addActionListener(this); 
+                         b10.addActionListener(this); 
+                          b11.addActionListener(this); 
+                           b12.addActionListener(this); 
+                            b13.addActionListener(this); 
+                             b14.addActionListener(this); 
+                              b15.addActionListener(this); 
+                               b16.addActionListener(this); 
+                                b17.addActionListener(this); 
+                                                          b18.addActionListener(this); 
+                                                           b19.addActionListener(this); 
+                                                            b20.addActionListener(this); 
+                                                             b21.addActionListener(this); 
+                                                              b22.addActionListener(this); 
+                                                               b23.addActionListener(this); 
+                                                                b24.addActionListener(this); 
+                                                                 b25.addActionListener(this); 
+                                                                  b26.addActionListener(this); 
+                                                                   b27.addActionListener(this); 
+                                                                    b28.addActionListener(this); 
+                                                                     b29.addActionListener(this); 
+                                                                      b30.addActionListener(this); 
+                                                                       b31.addActionListener(this); 
+                                                                        b32.addActionListener(this); 
+                                                                         b33.addActionListener(this); 
+                                                                          b34.addActionListener(this); 
+                                                                           b35.addActionListener(this); 
+                                                see_help.addActionListener(this);
+                                                 
+                      scientific.addActionListener(this);
+                       standard.addActionListener(this);
+                        copy.addActionListener(this);  
+                         paste.addActionListener(this); 
+                           
+                         
+                                                      this.setBounds(500,100,475,335);
+                                                        this.setResizable(isMaximumSizeSet());
+                                                          this.getContentPane().setBackground(Color.LIGHT_GRAY);
+                                                            this.setLayout(null);
+                                                              this.setVisible(true);
+                      this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    }
+                    public void actionPerformed(ActionEvent e){
+                        
+                        jtf1.setFocusable(isFocusable());
+                          if(e.getSource()==Proyecto.this.b3){
+                              b=Float.parseFloat(jtf1.getText());
+                               jtf1.setText("");
+                                jtf1.setText(String.valueOf(Math.log(b)));
+                                  c=0;
+                                }
+                                if(e.getSource()==Proyecto.this.b4){
+                                    
+                                    b=Float.parseFloat(jtf1.getText());
+                                      con =(b*Math.PI)/180;
+                                        jtf1.setText("");
+                                          jtf1.setText(String.valueOf(Math.sin(con)));
+                                          c=0;
+                                           con=0;
+                                        }
+                                        
+                                        
+                    
+                    
+                    
+                    
+                    
+                    }
+                         
                   
               
 
@@ -224,4 +273,4 @@ public void startcontrols(){
 }
 
 
-}
+
